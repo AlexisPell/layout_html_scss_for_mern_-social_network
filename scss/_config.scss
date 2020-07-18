@@ -35,14 +35,44 @@ $spaceamounts: (1, 2, 3, 4, 5);
   .my-#{$space} {
     margin: #{$space}rem 0;
   }
+}
 
-  // All padding
-  .p-#{$space} {
-    padding: #{space}rem;
-  }
+.p-1 {
+  padding: 1rem;
+}
 
-  // Vertical margin
-  .py-#{$space} {
-    padding: #{$space}rem 0;
-  }
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.py-5 {
+  padding: 5rem 0;
 }
